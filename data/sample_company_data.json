@@ -1,0 +1,102 @@
+[
+  {
+    "company": "Google",
+    "role": "Software Development Engineer (SDE / SWE)",
+    "type": "Technical Interview",
+    "difficulty": "Senior / Lead",
+    "question": "How would you design a globally distributed cache system with high availability and low latency consistency guarantees?",
+    "guidelines": "Discuss caching topology (write-through, write-back, cache-aside), consensus algorithms (Paxos/Raft), partition tolerance (CAP theorem), cache invalidation techniques, and edge CDN routing.",
+    "sample_feedback": "Candidate showed strong knowledge of consistent hashing, but forgot to address thundering herd problems under heavy cache misses."
+  },
+  {
+    "company": "Google",
+    "role": "Software Development Engineer (SDE / SWE)",
+    "type": "Technical Interview",
+    "difficulty": "Mid Level",
+    "question": "Explain the time and space complexity trade-offs between QuickSort, MergeSort, and HeapSort. In what scenarios would you choose MergeSort over QuickSort?",
+    "guidelines": "Mention worst-case vs average-case complexities, stability of sort, auxiliary memory overhead (O(N) for merge sort), cache locality advantages of quicksort, and external sorting with sequential disk reads.",
+    "sample_feedback": "Excellent breakdown of asymptotic runtimes; good articulation of cache locality and stable sorting requirements."
+  },
+  {
+    "company": "Google",
+    "role": "Software Development Engineer (SDE / SWE)",
+    "type": "HR / Behavioral Interview",
+    "difficulty": "Mid Level",
+    "question": "Describe a time when you strongly disagreed with a team lead or colleague on a technical architectural decision. How did you navigate it and what was the outcome?",
+    "guidelines": "Focus on data-driven persuasion, respectful discourse, testing hypotheses with POCs, disagree and commit principle, and project delivery.",
+    "sample_feedback": "Good use of the STAR method; emphasized objective benchmarking instead of personal opinions."
+  },
+  {
+    "company": "Amazon",
+    "role": "Software Development Engineer (SDE / SWE)",
+    "type": "Technical Interview",
+    "difficulty": "Mid Level",
+    "question": "Design an idempotency layer for a payment transaction service to avoid duplicate customer charges in an unreliable distributed network.",
+    "guidelines": "Cover unique idempotency keys, distributed locks (Redis Redlock), database transactions with atomic upserts, TTL expirations, and handling in-flight retries.",
+    "sample_feedback": "Understood the idempotency key concept well; had minor gaps around handling network timeouts while waiting on the third-party payment gateway."
+  },
+  {
+    "company": "Amazon",
+    "role": "Software Development Engineer (SDE / SWE)",
+    "type": "HR / Behavioral Interview",
+    "difficulty": "Mid Level",
+    "question": "Tell me about a time you had to deliver a critical project under tight deadlines with incomplete information (Amazon LP: Bias for Action & Deliver Results).",
+    "guidelines": "Highlight calculated risk-taking, incremental delivery (MVP), continuous validation, and avoiding analysis paralysis while retaining customer trust.",
+    "sample_feedback": "Demonstrated solid Bias for Action, but could have elaborated more on metrics measuring customer impact."
+  },
+  {
+    "company": "Microsoft",
+    "role": "Software Development Engineer (SDE / SWE)",
+    "type": "Technical Interview",
+    "difficulty": "Mid Level",
+    "question": "How do garbage collection algorithms work in managed environments like .NET CLR or the JVM? What causes memory leaks in managed code?",
+    "guidelines": "Generational GC (Gen 0, 1, 2), mark and sweep, root references, finalizers, static references, unmanaged resource leaks, and event handler subscriptions.",
+    "sample_feedback": "Clearly explained generational GC and memory fragmentation, accurately diagnosed unhooked event listeners as a major leak source."
+  },
+  {
+    "company": "Microsoft",
+    "role": "Software Development Engineer (SDE / SWE)",
+    "type": "HR / Behavioral Interview",
+    "difficulty": "Junior / Entry Level",
+    "question": "How do you embrace a Growth Mindset when faced with a project or technology you have zero prior experience in?",
+    "guidelines": "Emphasize curiosity, rapid prototyping, consulting peers and documentation, learning from mistakes, and sharing newly gained knowledge with team members.",
+    "sample_feedback": "Inspiring personal project anecdote demonstrating fast learning agility."
+  },
+  {
+    "company": "Infosys",
+    "role": "Software Development Engineer (SDE / SWE)",
+    "type": "Technical Interview",
+    "difficulty": "Junior / Entry Level",
+    "question": "Explain Object-Oriented Programming (OOP) principles with real-world examples: Encapsulation, Abstraction, Inheritance, and Polymorphism.",
+    "guidelines": "Define each principle accurately with practical code metaphors (e.g. Bank Account for encapsulation, Vehicle hierarchy for polymorphism/inheritance).",
+    "sample_feedback": "Well-articulated definitions; clear distinction between compile-time method overloading and run-time method overriding."
+  },
+  {
+    "company": "Infosys",
+    "role": "Software Development Engineer (SDE / SWE)",
+    "type": "HR / Behavioral Interview",
+    "difficulty": "Junior / Entry Level",
+    "question": "Are you comfortable relocating or working across different client shifts and cross-cultural global teams?",
+    "guidelines": "Demonstrate flexibility, strong communication, adaptability to client needs, and respect for multicultural workplace environments.",
+    "sample_feedback": "Great enthusiasm and clear readiness for client-facing collaboration."
+  },
+  {
+    "company": "TCS",
+    "role": "Software Development Engineer (SDE / SWE)",
+    "type": "Technical Interview",
+    "difficulty": "Junior / Entry Level",
+    "question": "What is the difference between SQL and NoSQL databases? When would you use relational models versus document or key-value stores?",
+    "guidelines": "ACID compliance vs BASE properties, schema rigidity vs dynamic schemas, vertical vs horizontal scaling, complex joins vs fast lookup reads.",
+    "sample_feedback": "Solid grasp of relational schemas vs document stores like MongoDB."
+  },
+  {
+    "company": "TCS",
+    "role": "Software Development Engineer (SDE / SWE)",
+    "type": "HR / Behavioral Interview",
+    "difficulty": "Junior / Entry Level",
+    "question": "Where do you see yourself in 3 to 5 years, and how do you plan to contribute to digital transformation initiatives?",
+    "guidelines": "Career progression towards technical leadership or architectural mastery, commitment to upskilling in Cloud/AI, and organizational value creation.",
+    "sample_feedback": "Structured vision balancing technical depth and team delivery."
+  }
+]
+
